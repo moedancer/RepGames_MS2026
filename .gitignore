@@ -1,0 +1,19 @@
+# Plots folders
+plots/
+
+# Zip archives
+*.zip
+
+# R artifacts
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Quarto artifacts
+_quarto*
+*.qmd.html
+*.qmd.pdf
+*.qmd.docx
+*.qmd.ipynb

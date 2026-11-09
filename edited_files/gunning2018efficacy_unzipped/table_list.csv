@@ -1,0 +1,13 @@
+name,comment
+all_points,"Primary ID table for houses"
+v_all_house,"Primary data table for house surveys. gid: house unique_id. sid: survey unique_id. ct: containers. pc: positive_containers (aggregate of data in v_all_cont). aa_*: aedes aegypti.  na_*: non-aedes aegypti."
+v_all_cont,"Primary data table for container / immature surveys"
+v_all_spray,"Primary data table for ULV spraying. Date is the putative date of treatment; date_upper is the latest possible date of spraying. spray_record: NIH = experimental spraying; DIRESA = MoH citywide."
+v_spray_dates,"Convenience table, number of spray application attempts per calendar date"
+## ?? cage data import in sql?
+v_all_cage,"Primary data table for control cages"
+v_join_house_par_cont,"Convenience table: joins house, parity, and container surveys"
+v_agg_survey_counts,"Convenience table: observation counts of all surveys"
+v_join_house_tx,"Convenience table: joins house surveys with prior spray applications. Only includes spray region houses during spray periods." 
+all_circuit2,"Convenience table: names and labels of experimental circuits"
+
